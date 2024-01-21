@@ -1,6 +1,6 @@
-# MedicaM OCR - Optical Character Recognition
+# MediCam OCR - Optical Character Recognition
 
-## Team Name: Medicam 
+## Team Name: MediCam 
 ### Project for 
 HOSTS:LNMHacks
 
