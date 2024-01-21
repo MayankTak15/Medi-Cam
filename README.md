@@ -1,7 +1,8 @@
 # MedicaM OCR - Optical Character Recognition
 
-## Team Name: MEdicam HOst
-### Project for LNMHacks
+## Team Name: Medicam 
+### Project for 
+HOSTS:LNMHacks
 
 ## Short Introduction
 MedicaM OCR is an Optical Character Recognition (OCR) system developed by Team MEdicam HOst for the LNMHacks event. This project aims to assist medical professionals in efficiently extracting text information from medical images, enabling faster and more accurate data processing.
