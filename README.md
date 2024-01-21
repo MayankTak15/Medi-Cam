@@ -21,37 +21,17 @@ MedicaM OCR is an Optical Character Recognition (OCR) system developed by Team M
 - **Python**: Backend development and integration of OCR functionalities.
 - **Web Interface**: A user-friendly web interface for easy image upload and result retrieval.
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/medicam-host/medicam-ocr.git
-   cd medicam-ocr
-   ```
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the application:
-   ```bash
-   python app.py
-   ```
-
-4. Access the application in your browser at [http://localhost:5000](http://localhost:5000).
-
+4. Access the application in your browser at https://medicam.netlify.app
 ## Contributing
 We welcome contributions! Feel free to open issues or submit pull requests. Follow our [contribution guidelines](CONTRIBUTING.md) for more details.
 
 ## Team Members
-- **John Doe**: Project Lead and Backend Developer
-- **Jane Smith**: OCR Algorithm Specialist
-- **Sam Johnson**: Web Interface Developer
-- **Emily Williams**: Documentation and Testing
+- **Himanshu Bhargava **: Project Lead and MAchine Learning 
+- **Mayank Tak**: OCR Algorithm Specialist
+- **Prateek Kushwah**: Web Interface Developer
+- **Ankit Singhal**: Documentation 
 
-## License
-This project is licensed under the [MIT License](LICENSE).
 
----
 
 Feel free to customize the above template according to your project's specifics. Include detailed information on how to set up and use the OCR system, technologies used, and information about your team members.
