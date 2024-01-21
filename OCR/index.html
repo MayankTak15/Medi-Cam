@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical OCR - Optical Character Recognition from Image</title>
+    <style>
+        
+
+        body {
+            padding: 0px 100px;
+            font-family: sans-serif;
+            background-color: #ecf0f1; /* Background color for the entire page */
+        }
+
+        header {
+            background-color: #3498db;
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        .upper div {
+            display: inline;
+            margin-left: 20px;
+            white-space: pre;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        .custom-file-upload {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #27ae60;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+
+        .progress {
+            /* Assuming you have the styling for progress */
+        }
+
+        .bottom {
+            margin-top: 30px;
+            display: flex;
+        }
+
+        .bottom div {
+            flex: 1;
+            border: 1px solid rgb(118, 118, 118);
+            height: 400px;
+            margin: 10px;
+            background-color: #fff; /* Background color for the image and text area */
+            overflow: hidden;
+            border-radius: 5px;
+        }
+
+        .bottom div img {
+            max-width: calc(100% - 20px);
+            max-height: calc(100% - 20px);
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        .bottom div textarea {
+            resize: none;
+            width: calc(100% - 21px);
+            height: calc(100% - 21px);
+            padding: 10px;
+            font-size: 20px;
+            outline: none;
+            border: none;
+            font-family: sans-serif;
+            border-radius: 5px;
+            background-color: #ecf0f1; /* Background color for the text area */
+        }
+
+        .bottom div:first-child {
+            margin-left: 0px;
+            -webkit-box-align: center;
+            -webkit-box-pack: center;
+            display: -webkit-box;
+        }
+
+        .bottom div:last-child {
+            margin-right: 0px;
+        }
+
+        footer {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Medical OCR - Optical Character Recognition from Image</h1>
+        <p>Efficiently extract text information from medical documents using OCR technology.</p>
+    </header>
+    <nav>
+        <a href="https://medicam.netlify.app/#banner">Home</a>
+        <a href="https://medicam.netlify.app/#service">Service</a>
+        <a href="https://medicam.netlify.app/#about">About</a>
+        <a href="Doctello-master/faq.html">FAQ</a>
+        <a href="https://medicam.netlify.app/#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="upper">
+            <label for="file-upload" class="custom-file-upload">Choose File</label>
+            <input type="file" id="file-upload">
+            <button>Start</button>
+            <div class="progress"></div>
+        </div>
+        <div class="bottom">
+            <div>
+                <img src="" alt="Processed Medical Image">
+            </div>
+            <div>
+                <textarea placeholder="Extracted Text"></textarea>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+    <footer>
+        <p>&copy; 2024 Medical OCR Solution. All rights reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/tesseract.js@v2.0.0-alpha.13/dist/tesseract.min.js"></script>
+    <script src="script.js"></script>
+
+</div>
+
+</body>
+
+</html>
